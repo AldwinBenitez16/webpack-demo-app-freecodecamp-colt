@@ -1,0 +1,25 @@
+{
+  "name": "freecodecamp-webpack-demo-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AldwinBenitez16/webpack-demo-app-freecodecamp-colt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AldwinBenitez16/webpack-demo-app-freecodecamp-colt/issues"
+  },
+  "homepage": "https://github.com/AldwinBenitez16/webpack-demo-app-freecodecamp-colt#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
