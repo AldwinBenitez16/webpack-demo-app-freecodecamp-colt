@@ -1,0 +1,9 @@
+$primary: teal;
+$danger: grey;
+$body-color: purple;
+
+body {
+  background-color: $body-color;
+}
+
+@import "~bootstrap/scss/bootstrap";
