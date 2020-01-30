@@ -4,9 +4,8 @@ const path = require("path");
 
 module.exports = merge(common, {
     mode: "development",
-    entry: "./src/index.js",
     output: { 
-        filename: "main.js",
+        filename: "[name].bundle.js",
         path: path.resolve(__dirname, "build")
     }
 });
